@@ -1,4 +1,4 @@
-年月日,"降水量合計(mm)","平均気温(℃)","最高気温(℃)","最低気温(℃)","平均湿度(％)","最小(％)","日照時間(h)",当年(kWh)
+date,"total_recipitation(mm)","average_temperature(℃)","maximum_temperature(℃)","minimum_temperature(℃)","average_humidity(％)","minimum_humidity(％)","sunshine_hours(h)",power_consumption(kWh)
 2025/2/19,0,2.7,7.7,-1.9,33,10,10.4,0
 2025/2/18,0,4.1,9,-1.5,27,14,8.6,0
 2025/2/17,0,8.2,15.8,2.6,48,19,7.8,1.1

@@ -2,7 +2,6 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
-import joblib
 
 # 1. 学習データの読み込み
 train_df = pd.read_csv("datas/daily_weather_and_power_consumption.csv")

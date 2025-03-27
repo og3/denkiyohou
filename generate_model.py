@@ -6,7 +6,7 @@ import pandas as pd
 import joblib
 
 # CSVの読み込み
-df = pd.read_csv("datas/daily_weather_and_power_consumption.csv")
+df = pd.read_csv("datas/train_v2.csv")
 
 # 数値に変換（エラーはNaNとして処理）
 for col in df.columns:
@@ -36,5 +36,5 @@ print("RMSE:", rmse)
 print("R²:", r2)
 
 # モデルの保存
-joblib.dump(model, "models/power_predictor_model.joblib")
+joblib.dump(model, "models/power_predictor_model_v2.joblib")
 print("modelを保存しました")

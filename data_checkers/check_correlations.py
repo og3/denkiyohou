@@ -27,4 +27,4 @@ def analyze_correlations(csv_path):
     return correlations
 
 # 使い方：ファイルパスを指定して関数を呼び出す
-correlations = analyze_correlations("datas/train_v3.csv")
+correlations = analyze_correlations("datas/train_v4.csv")

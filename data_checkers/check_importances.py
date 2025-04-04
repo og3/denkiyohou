@@ -4,17 +4,12 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 import joblib
 
-model = joblib.load("models/power_predictor_model_retrained.joblib")
+model = joblib.load("models/power_predictor_model_v3.joblib")
 
 # 特徴量と目的変数の分離
 feature_cols = [
-    "total_recipitation(mm)",
     "average_temperature(℃)",
-    "maximum_temperature(℃)",
-    "minimum_temperature(℃)",
-    "average_humidity(％)",
-    "minimum_humidity(％)",
-    "sunshine_hours(h)"
+    "use_aircon(bool)"
 ]
 
 # 重要度の抽出と可視化
